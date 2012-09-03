@@ -1,0 +1,15 @@
+﻿@model Lektion7.ViewModels.MyViewModel
+@{           
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Guid.Empty 
+
+@foreach(var i in new int[] {1,2,3}) {@i} 
+
+@(true ? "True" : "False")
+
+@Model.Post.Title
+@Model.MyInteger
